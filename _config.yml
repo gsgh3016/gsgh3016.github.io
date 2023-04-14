@@ -17,7 +17,7 @@ subtitle                 : "Music & Tech"
 name                     : &name "Gamchan Kang" # &name is a YAML anchor which can be *referenced later
 description              : &description "Guitarist, studying Deep Learning, Audio Programming"
 url                      : "https://gsgh3016.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "gsgh3016/gsgh3016.github.io"
 teaser                   : "/assets/images/MBV_loveless.jpeg"
 logo                     : "/assets/images/MBV_loveless.jpeg"
@@ -96,12 +96,12 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
+  avatar           : "/assets/images/profile_with_guitar.jpg"
   bio              : "Someday, the dream will come true"
   location         : "Pusan, South Korea"
   links:
     - label: "Linktree"
-      icon: "fas fa-fw fa-linktree"
+      icon: "fas fa-external-link"
       url: "https://linktr.ee/kanggamchan"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -109,8 +109,55 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/k_gamchan"
+    - label: "Facebook"
+      icon: "fab fa-facebook-square"
+      url: "https://www.facebook.com/kgamchan/"
 
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
 
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
+        
 # Site Footer
 footer:
   links:
