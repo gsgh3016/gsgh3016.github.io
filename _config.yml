@@ -31,8 +31,7 @@ comments:
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    https://www.facebook.com/kgamchan/
-    appid                :
+    appid                : "616336367061085"
     num_posts            : # 5 (default)
     colorscheme          : "dark"
   utterances:
@@ -64,7 +63,7 @@ algolia:
     - _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
+google_site_verification : # Replace this with your ID, or delete
 bing_site_verification   : 
 naver_site_verification  :
 yandex_site_verification :
@@ -73,8 +72,8 @@ baidu_site_verification  :
 # Social Sharing
 facebook:
   username               : &facebook "Gamchan Kang"
-  app_id                 : 
-  publisher              :
+  app_id                 : "616336367061085"
+  publisher              : "Gamchan Kang"
 og_image                 : "/assets/images/MBV_loveless.jpeg" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
