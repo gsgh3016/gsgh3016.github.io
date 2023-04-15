@@ -1,6 +1,15 @@
 # main links
 main:
-  - title: "sitemap"
-    url: /sitemap/
-  - title: "docs"
-    url: /docs/
+  - title: "BLOG"
+    url: "/blog/"
+  - title: "BIO"
+    url: "/bio/"
+  
+blog:
+  - title: "Category 2"
+    children:
+      - title: "2-1"
+        url: "/blog/"
+
+sidebar:
+  nav: "blog"
