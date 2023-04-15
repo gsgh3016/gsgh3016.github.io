@@ -28,7 +28,7 @@ breadcrumb_home_label    : "Home"
 breadcrum_separater      : "/"
 words_per_minute         : 200
 comments:
-  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
     shortname            : "gsgh3016"
   discourse:
