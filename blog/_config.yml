@@ -199,7 +199,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "/blog/_post/"
+      path: "/blog/"
       type: blog
     values:
       layout: single
