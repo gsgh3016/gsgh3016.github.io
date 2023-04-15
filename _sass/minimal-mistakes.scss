@@ -38,3 +38,10 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+a[href^="http"], a[href^="https"] {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }

@@ -23,7 +23,9 @@ repository               : "gsgh3016/gsgh3016.github.io"
 teaser                   : "/assets/images/MBV_loveless.jpeg"
 logo                     : "/assets/images/MBV_loveless.jpeg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true #, false (default)
+breadcrumb_home_label    : "Home"
+breadcrum_separater      : "/"
 words_per_minute         : 200
 comments:
   provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
@@ -113,6 +115,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-facebook-square"
       url: "https://www.facebook.com/kgamchan/"
+
+
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Site Footer
 footer:
@@ -277,6 +282,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
