@@ -3,7 +3,6 @@ layout: single
 title: 리눅스 프로세스 명령어(linux process command) 1. Environment
 categories: Linux
 ---
-
 # 1. startup file
 
 ## 1-1 PATH
@@ -67,6 +66,10 @@ alias nickname="target"
 ```console
 source configfile
 ```
+
+<br>
+
+***
 
 # 2. process command
 

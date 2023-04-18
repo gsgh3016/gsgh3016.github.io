@@ -3,7 +3,6 @@ layout: single
 title: 리눅스 프로세스 명령어(linux process command) 2. filtering
 categories: Linux
 ---
-
 # 1. I/O redirection
 
 ## 1-1 `>` and `>>`
@@ -30,6 +29,10 @@ command >> filename
 command < filename
 ```
 
+<br>
+
+***
+
 # 2. pipeline
 
 ```console
@@ -37,6 +40,10 @@ command1 | command2
 ```
 
 `command1` output goes into `command2` input(filename)
+
+<br>
+
+***
 
 # 3. **sort**
 
@@ -54,6 +61,10 @@ sort filename
         </tbody>
     </table>
 </center>
+
+<br>
+
+***
 
 # 4. **find**
 
